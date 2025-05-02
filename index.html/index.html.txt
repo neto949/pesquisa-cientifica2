@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grafite vs Pichação: Uma Análise do Vandalismo Urbano</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .hero {
+            background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('imagens/graffiti-wall.jpg');
+            background-size: cover;
+            height: 60vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Grafite × Pichação</h1>
+            <p>Uma pesquisa acadêmica sobre arte urbana e vandalismo</p>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="sobre.html">Contexto Histórico</a></li>
+                <li><a href="legislacao.html">Aspectos Legais</a></li>
+                <li><a href="casos.html">Estudos de Caso</a></li>
+                <li><a href="solucoes.html">Soluções Propostas</a></li>
+                <li><a href="referencias.html">Referências</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="hero">
+        <div class="hero-content">
+            <h2>Arte Urbana ou Vandalismo?</h2>
+            <p>Uma análise acadêmica sobre os impactos sociais do grafite e pichação no espaço urbano</p>
+        </div>
+    </div>
+
+    <main class="container">
+        <section id="introducao">
+            <h2>Introdução</h2>
+            <p>Esta pesquisa tem como objetivo analisar a complexa relação entre grafite, pichação e vandalismo no contexto urbano contemporâneo. Através de uma abordagem interdisciplinar que combina sociologia urbana, direito e estudos culturais, buscamos entender:</p>
+            <ul>
+                <li>As origens históricas dessas manifestações</li>
+                <li>Seu impacto na paisagem urbana</li>
+                <li>As respostas legais e sociais</li>
+                <li>Possíveis soluções para o problema</li>
+            </ul>
+        </section>
+
+        <section id="metodologia">
+            <h2>Metodologia</h2>
+            <p>A pesquisa utilizou os seguintes métodos:</p>
+            <div class="grid">
+                <div class="card">
+                    <h3>Revisão Bibliográfica</h3>
+                    <p>Análise de 42 artigos científicos publicados entre 2000-2023</p>
+                </div>
+                <div class="card">
+                    <h3>Estudo de Caso</h3>
+                    <p>Análise de 5 cidades brasileiras com políticas distintas</p>
+                </div>
+                <div class="card">
+                    <h3>Entrevistas</h3>
+                    <p>30 entrevistas com artistas, policiais e gestores públicos</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="destaques">
+            <h2>Principais Achados Preliminares</h2>
+            <div class="findings">
+                <article>
+                    <h3>1. Distinção Perceptiva</h3>
+                    <p>78% da população distingue grafite artístico de pichação vandalista</p>
+                </article>
+                <article>
+                    <h3>2. Custo Municipal</h3>
+                    <p>Prejuízo médio de R$ 18,70/m² para remoção em São Paulo</p>
+                </article>
+                <article>
+                    <h3>3. Perfil dos Autores</h3>
+                    <p>62% têm entre 15-24 anos; 85% são do sexo masculino</p>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>© 2023 Pesquisa Acadêmica - Grafite e Pichação | Universidade [Nome]</p>
+            <p>Orientador: Prof. Dr. [Nome] | Autor: [Seu Nome]</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
